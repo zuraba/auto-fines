@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ge.zuraba.android.autofines"
+    android:versionCode="16"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name=".activities.VideoPenaltiesActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.FineDetailActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".activities.FinesActivity" >
+        </activity>
+        <activity android:name=".PoliceActivity" >
+        </activity>
+        <activity android:name=".CtparkActivity">
+        </activity>
+        <activity
+            android:name=".activities.CtparkFines"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activities.CtparkFineDetails">
+        </activity>
+        <activity
+            android:name=".preferences.Preferences"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+    </application>
+
+</manifest>

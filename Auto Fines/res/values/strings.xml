@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="adminPenalty">ადმინისტრაციული სამართალდარღვევები</string>
+    <string name="app_name">Auto Fines</string>
+    <string name="docNumber">ტექ-პასპორტის ნომერი</string>
+    <string name="vehicNo2">ავტომობილის სახელმწიფო ნომერი</string>
+    <string name="search">ძებნა</string>
+    <string name="name">გვარი სახელი</string>
+    <string name="date">თარიღი</string>
+    <string name="article">მუხლი</string>
+    <string name="sum">თანხა</string>
+    <string name="status">მდგომარეობა</string>
+    <string name="netError">ინტერნეტთან კავშირის პრობლემა</string>
+    <string name="plate_number">შეამოწმეთ თქვენი მანქანის ნომერი</string>
+    <string name="video_fines">ვიდეო ჯარიმები</string>
+    <string name="parking_fines">სითი პარკი</string>
+    <string name="fines">ჯარიმები</string>
+    <string name="parking_tickets">პარკირების საშვები</string>
+    <string name="insert_plate_number">შეიყვანეთ მანქანის სარეგისტრაციო ნომერი</string>
+    <string name="fine_not_found">ჯარიმები ვერ მოიძებნა</string>
+    <string name="settings">პარამეტრები</string>
+    <string name="my_plate_number">სარეგისტრაციო ნომერი</string>
+    <string name="ctpark_finenotfound">არც ერთი ჯარიმა არ იყო ნაპოვნი</string>
+    <string name="reminder">შემახსენე გადახდის თარიღი</string>
+    <string name="timely_paid">გადახდილი</string>
+    <string name="activation_date">აქტივაციის თარიღი</string>
+    <string name="expiry_date">ამოწურვის თარიღი</string>
+    <string name="parking_tickets">სითი პარკის საშვები</string>
+    <string name="tickets">საშვები</string>
+
+</resources>
