@@ -26,8 +26,8 @@
     <string name="timely_paid">გადახდილი</string>
     <string name="activation_date">აქტივაციის თარიღი</string>
     <string name="expiry_date">ამოწურვის თარიღი</string>
-    <string name="parking_tickets">სითი პარკის საშვები</string>
     <string name="tickets">საშვები</string>
     <string name="processing">მუშავდება</string>
+    <string name="check_your_fines">გადაამოწმე ჯარიმები</string>
 
 </resources>
